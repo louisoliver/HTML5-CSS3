@@ -1,0 +1,33 @@
+https://scrimba.com/
+
+https://www.madebymike.com.au/demos/html5-periodic-table/#strong
+
+https://fonts.google.com/?selection.family=Laila|Orbitron
+
+https://caniuse.com/
+
+remove all browsers default css (100%)
+https://code.google.com/archive/p/html5resetcss/downloads 
+
+
+remove all browsers default css (90%) this is used more commonly and should be the goto solution
+https://necolas.github.io/normalize.css/
+
+translate char to unicode
+https://unicode-table.com/en/
+
+jQUERY
+https://code.jquery.com/jquery/
+
+
+https://daneden.github.io/animate.css/
+https://michalsnik.github.io/aos/
+
+
+https://wowjs.uk/
+
+
+https://pixabay.com/en/
+https://www.pexels.com/
+https://compressor.io/
+https://css-tricks.com/

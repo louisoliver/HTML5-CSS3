@@ -1,0 +1,137 @@
+/*    CASE STUDY CSS FILE    */
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------
+
+WEBSITE COLOUR SCHEME
+
+-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+
+First colour: rgba(195,168,255,1)
+Second colour: rgba(44,31,61,1)
+Third colour: rgba(55,42,71,1)
+Fourth colour: #444; form main content text and headings
+Fifth colour:rgba(53,38,80,0.8)
+
+*/
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------
+
+MOBILE DEFAULT STYLES - GLOBAL STYLES
+
+-------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Prevent adjustment of font size after orientation chnage in IE on wondows phone and in IOS*/
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Apply a natural box model layout to al elements */
+
+* {
+    -webkit-box-sizing: border-box;
+    /*chrome or safari------border box stops padding adding extra pixels to the size*/
+    -moz-box-sizing: border-box;
+    /*mozilla firefox*/
+    box-sizing: border-box;
+}
+
+/* Optional - all images and videos set to 100% width ot their parent container */
+
+img,
+video {
+    width 100%
+}
+
+body {
+    /*font-family: 'Laila', serif;*/
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    color: #444;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* hide horizontal "x" scroll bar */
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------
+
+HOMEPAGE STYLES
+
+-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.homeBgImage {
+    position: relative;
+    background-image: url(../img/trainerHomePage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 15px solid rgba(53, 38, 80, 0.8);
+    background-attachment: fixed;
+    /* img src="img/trainerHomePage.jpg" alt="Homepage background image"*/
+}
+
+.corpLogo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    widows: 45px;
+    position: fixed;
+}
+
+.cartIcon {
+    position: absolute;
+    top: 15px;
+    left 45vw;
+    width: 45px;
+    z-index: 115;
+    position: fixed;
+    font-size: 2em;
+    color: rgba(195,168,255,0.7);
+}
+
+.fa-shopping-basket{
+    font-size: 2em;
+    color: rgba(195,168,255,0.7);
+}
+
+
+.menu{
+    position: fixed;
+    color: white;
+    height: auto;
+    width: 100%;
+    background-color: rgba(195,168,255,0.2);
+    border-bottom: 2px solid rgba(195,168,255,0.2);
+    z-index: 100;
+}
+
+.menu li {
+    list-style: none;
+    float: right;
+}
+
+.menu li a {
+    display: block;
+    color: rgba(195,168,255,1);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: rgba(195,168,255, 0.2)
+}

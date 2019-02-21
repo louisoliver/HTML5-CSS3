@@ -1,0 +1,97 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="Style.css">
+
+    <title>Contact us</title>
+
+    <style>
+        form  {padding:10px; display: table;border: 5px ridge darkorange; background-color: antiquewhite  }
+        p     {;display: table-row;  }
+        label, 
+        input, 
+        select,
+        textarea {margin:5px;padding:5px 10px; display: table-cell; }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <ul class="menu">
+        <li><a href="Main1.html">Home</a></li>
+        <li><a href="InternalLink1_About.html">About</a></li>
+        <li><a href="InternalLink2_Products.html">Products</a></li>
+        <li><a href="InternalLink3_Contact.html">Contact</a></li>
+        <li><a href="InternalLink4_News.html">News</a></li>
+    </ul>
+
+    <h1>Contact us</h1>
+    <section style="float: left;width: 48%; height: 48%">
+        <form action="mailto:luckypierre@cock.com" method="post" name="contact">
+            <p>
+                <label>Title:</label>
+                <select name="title">
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs.</option>
+                    <option value="miss">Miss</option>
+                    <option value="ms">Ms</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Full name:</label>
+                <input type="text" name="name">
+
+            </p>
+
+            <p>
+                <label>DOB:</label>
+                <input type="date" name="dob">
+            </p>
+
+
+            <p>
+                <label>Gender:</label>
+                Male<input type="radio" name="gender" checked>
+                Female<input type="radio" name="gender">
+                Other<input type="radio" name="gender">
+            </p>
+
+            <p>
+                <label>Contact via:</label>
+                Phone<input type="checkbox" name="phone">Email:<input type="checkbox" name="email">Bongos:<input type="checkbox" name="bongos">
+            </p>
+            <P>
+                <label>Phone:</label>
+                <input type="tel" name="phone">
+            </P>
+
+            <P>
+                <label>Email:</label>
+                <input type="email" name="email">
+            </P>
+
+            <p>
+                <label>Message</label>
+                <textarea cols="60%" rows="8" placeholder="Please enter a message..." name="message"></textarea>
+            </p>
+            <br><br>
+
+
+            <p>
+                <input type="submit" style="background-color:darkgreen;color:red;border: 2px solid fuchsia;" onmouseover="this.style.color='#0F0'" onMouseOut="this.style.color='red'">
+            </p>
+
+        </form>
+    </section>
+
+    <section style="float: right ;width: 48%; height: 48%">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9931.721835049031!2d-0.0803065!3d51.5144918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c81b8a1a822fda8!2s30+St+Mary+Axe+(The+Gherkin)!5e0!3m2!1sen!2suk!4v1550589253548" width="90%" height="165%" frameborder="0"></iframe>
+    </section>
+
+</body>
+
+</html>
